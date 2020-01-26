@@ -9,7 +9,7 @@ exports.config = {
     //runner: 'local',
     //
     // Override default path ('/wd/hub') for chromedriver service.
-    host: "selenium-hub",
+    hostname: "selenium-hub",
     path: "/wd/hub",
     port: 4444,
     //
