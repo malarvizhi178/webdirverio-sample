@@ -4,4 +4,3 @@ COPY . .
 RUN yarn install --force && \
 	mkdir -p ./reports && \
 	mkdir -p ./reports/ForgeUiTestReport
-CMD ["yarn","start"]
