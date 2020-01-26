@@ -6,10 +6,12 @@ exports.config = {
     //
     // WebdriverIO allows it to run your tests in arbitrary locations (e.g. locally or
     // on a remote machine).
-    runner: 'local',
+    //runner: 'local',
     //
     // Override default path ('/wd/hub') for chromedriver service.
-    path: '/wd/hub',
+    host: "selenium-hub",
+    path: "/wd/hub",
+    port: 4444,
     //
     // ==================
     // Specify Test Files
