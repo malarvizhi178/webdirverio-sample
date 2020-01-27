@@ -3,4 +3,4 @@ WORKDIR /app
 COPY . .
 RUN yarn install --force && \
 	mkdir -p ./Results
-CMD ["/bin/sh", "-ec", "while :; do echo '.'; sleep 5 ; done"]
+CMD ["/bin/sh", "-ec", "yarn start && while :; do echo '.'; sleep 5 ; done"]
